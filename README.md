@@ -18,24 +18,22 @@ liste de ses `modifications`.
 | `lexique-rimble-es.json` | lemmes michmech · fréquences OpenSubtitles | ODbL 1.0 |
 | `lexique-rimble-pt.json` | lemmes michmech · fréquences OpenSubtitles | ODbL 1.0 |
 | `lexique-rimble-en.json` | CMUdict · lemmes michmech · fréquences OpenSubtitles | ODbL 1.0 |
+| `lexique-rimble-de.json` | Wiktionnaire allemand via kaikki.org · fréquences OpenSubtitles | CC BY-SA 4.0 |
 
 Les textes intégraux des licences sont dans `licences/`.
 
-## Ce qui n'est pas encore ici
+## L'italien n'est plus au catalogue
 
-**L'allemand et l'italien**, et pour deux raisons différentes :
+Sa phonologie venait de **PhonItalia 1.10**, distribué sous *Creative Commons
+Attribution – NonCommercial – ShareAlike 3.0*. La page d'origine, retrouvée dans
+les archives du web parce que le site est mort, précise que « PhonItalia et
+toutes les bases dérivées sont librement disponibles pour un usage de recherche
+non commercial ».
 
-- le dictionnaire allemand réunit des lemmes sous **ODbL** et des prononciations
-  du Wiktionnaire sous **CC BY-SA**. Les deux clauses de partage à l'identique se
-  contredisent, et aucune licence unique ne les satisfait toutes les deux. Tant
-  que ce n'est pas tranché, publier ce fichier reviendrait à le distribuer sous
-  des conditions qu'on ne sait pas énoncer ;
-- le dictionnaire italien dérive de **PhonItalia 1.10**, dont la licence n'est
-  pas établie : le site d'origine est hors ligne et l'article de 2014 dit
-  seulement « freely available ». On ne republie pas ce qu'on n'a pas le droit
-  de republier.
-
-Les deux arriveront ici quand ces points seront réglés.
+La clause vise donc exactement ce qu'un jeu payant en ferait. L'italien a été
+retiré de Rimble et sa base dérivée de ce dépôt. Elle reviendra le jour où elle
+sera reconstruite depuis une source qui ne l'interdit pas — le Wiktionnaire
+italien, comme l'allemand.
 
 ## Ce que ces fichiers contiennent
 
