@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les dictionnaires dérivés de Rimble</title>
+<meta name="description" content="Les dictionnaires de Rimble, republiés en clair sous leur licence d'origine.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<style>
+  :root { --papier:#faf6ee; --encre:#101010; --lime:#c8f02e; --rose:#ff3d9a; --gris:rgba(16,16,16,.55); }
+  @media (prefers-color-scheme: dark) { :root { --papier:#14140f; --encre:#f3efe6; --gris:rgba(243,239,230,.6); } }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:0 20px 80px; background:var(--papier); color:var(--encre);
+         font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  main { max-width:720px; margin:0 auto; }
+  header { padding:64px 0 8px; }
+  .titre { font-size:clamp(34px,9vw,58px); font-weight:900; letter-spacing:-.03em; line-height:.98;
+           margin:0; color:var(--lime); -webkit-text-stroke:2.5px var(--encre); text-shadow:5px 6px 0 var(--rose); }
+  .accroche { font-weight:700; margin:22px 0 0; }
+  h2 { font-size:24px; font-weight:800; margin:44px 0 4px; }
+  p { margin:16px 0; }
+  table { border-collapse:collapse; width:100%; margin:20px 0; font-size:15px; }
+  th,td { text-align:left; padding:10px; border-bottom:1px solid var(--gris); vertical-align:top; }
+  th { font-weight:800; }
+  code { font-size:14px; }
+  a { color:inherit; text-underline-offset:3px; }
+  .encadre { border:2.5px solid var(--encre); border-radius:12px; background:var(--lime); color:#101010;
+             box-shadow:5px 5px 0 var(--encre); padding:18px 20px; margin:30px 0; font-weight:700; }
+  .attente { border:2.5px dashed var(--encre); border-radius:12px; background:transparent; color:var(--encre);
+             box-shadow:none; padding:18px 20px; margin:30px 0; font-weight:400; }
+  .note { color:var(--gris); font-size:14px; }
+  .defilant { overflow-x:auto; }
+  hr { border:0; border-top:3px solid var(--encre); margin:44px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1 class="titre">Rimble</h1>
+  <p class="accroche">Les dictionnaires dérivés, en clair</p>
+</header>
+
+<div class="encadre">Ces fichiers sont ici parce que les licences de leurs sources l'exigent : une base dérivée doit être republiée, lisible, sous la même licence.</div>
+
+<p>Une application de l'App Store est chiffrée — personne ne pourrait exercer ces droits sur un fichier enfermé dedans. Ceci est la version libre de ce que <a href="https://jasspym.github.io/rimble-legal/">Rimble</a> embarque.</p>
+
+<p><strong>Il n'y a pas une licence, il y en a une par langue.</strong> Chaque fichier porte la sienne dans son champ <code>licence</code>, avec sa <code>notice</code> d'attribution et la liste de ses <code>modifications</code>.</p>
+
+<div class="defilant">
+<table>
+  <tr><th>Fichier</th><th>Sources</th><th>Licence</th></tr>
+  <tr><td><a href="lexique-rimble.json">lexique-rimble.json</a><br><span class="note">français</span></td><td>Lexique 3.82 — Boris New &amp; Christophe Pallier</td><td><a href="licences/CC-BY-SA-4.0.txt">CC BY-SA 4.0</a></td></tr>
+  <tr><td><a href="lexique-rimble-es.json">lexique-rimble-es.json</a><br><span class="note">espagnol</span></td><td>lemmes michmech · fréquences OpenSubtitles</td><td><a href="licences/ODbL-1.0-michmech.txt">ODbL 1.0</a></td></tr>
+  <tr><td><a href="lexique-rimble-pt.json">lexique-rimble-pt.json</a><br><span class="note">portugais du Brésil</span></td><td>lemmes michmech · fréquences OpenSubtitles</td><td><a href="licences/ODbL-1.0-michmech.txt">ODbL 1.0</a></td></tr>
+  <tr><td><a href="lexique-rimble-en.json">lexique-rimble-en.json</a><br><span class="note">anglais</span></td><td>CMUdict · lemmes michmech · fréquences OpenSubtitles</td><td><a href="licences/ODbL-1.0-michmech.txt">ODbL 1.0</a></td></tr>
+</table>
+</div>
+
+<div class="attente">
+<strong>L'allemand et l'italien ne sont pas encore ici</strong>, et pour deux raisons différentes.
+<p>Le dictionnaire allemand réunit des lemmes sous <strong>ODbL</strong> et des prononciations du Wiktionnaire sous <strong>CC BY-SA</strong>. Les deux clauses de partage à l'identique se contredisent : aucune licence unique ne les satisfait toutes les deux. Le publier reviendrait à le distribuer sous des conditions qu'on ne sait pas énoncer.</p>
+<p>Le dictionnaire italien dérive de <strong>PhonItalia 1.10</strong>, dont la licence n'est pas établie : le site d'origine est hors ligne et l'article de 2014 dit seulement « freely available ». On ne republie pas ce qu'on n'a pas le droit de republier.</p>
+<p>Les deux arriveront ici quand ces points seront réglés.</p>
+</div>
+
+<h2>Ce que ces fichiers contiennent</h2>
+
+<p>Aucun mot n'a été ajouté à aucune source. Pour chaque langue : les formes retenues, groupées par famille de rimes, avec l'étiquette affichée par le jeu, un niveau de difficulté et un drapeau « mot courant ». La rime est <strong>calculée</strong> depuis la colonne phonémique de la source, jamais depuis l'orthographe. Les colonnes dont le jeu ne se sert pas ne sont pas reproduites.</p>
+
+<h2>Attributions</h2>
+
+<p><strong>Lexique</strong> — base de données lexicales du français, Boris New &amp; Christophe Pallier, <a href="https://www.lexique.org">lexique.org</a>, sous CC BY-SA 4.0. Le dictionnaire français de Rimble en est une adaptation modifiée. Fourni en l'état, sans garantie d'aucune sorte.</p>
+
+<p><strong>Lemmatization Lists</strong> — Michal Boleslav Měchura, sous Open Database License (ODbL) 1.0. <em>Contains information from lemmatization-lists, which is made available under the ODbL.</em></p>
+
+<p><strong>CMU Pronouncing Dictionary</strong> — Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved. Redistribué selon les termes de la licence BSD à deux clauses.</p>
+
+<p><strong>FrequencyWords</strong> — Hermit Dave, dérivé du corpus OpenSubtitles, sous licence MIT. Copyright (c) 2016 Hermit Dave.</p>
+
+<hr>
+
+<p class="note">Éditeur : Jasspym — <a href="mailto:contact@jasspym.com">contact@jasspym.com</a>. Mis à jour le 10 septembre 2026.</p>
+
+</main>
+</body>
+</html>
