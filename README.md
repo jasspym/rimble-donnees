@@ -19,10 +19,11 @@ liste de ses `modifications`.
 | `lexique-rimble-pt.json` | lemmes michmech · fréquences OpenSubtitles | ODbL 1.0 |
 | `lexique-rimble-en.json` | CMUdict · lemmes michmech · fréquences OpenSubtitles | ODbL 1.0 |
 | `lexique-rimble-de.json` | Wiktionnaire allemand via kaikki.org · fréquences OpenSubtitles | CC BY-SA 4.0 |
+| `lexique-rimble-it.json` | Wiktionnaire italien via kaikki.org · fréquences OpenSubtitles | CC BY-SA 4.0 |
 
 Les textes intégraux des licences sont dans `licences/`.
 
-## L'italien n'est plus au catalogue
+## L'italien a changé de source
 
 Sa phonologie venait de **PhonItalia 1.10**, distribué sous *Creative Commons
 Attribution – NonCommercial – ShareAlike 3.0*. La page d'origine, retrouvée dans
@@ -30,10 +31,9 @@ les archives du web parce que le site est mort, précise que « PhonItalia et
 toutes les bases dérivées sont librement disponibles pour un usage de recherche
 non commercial ».
 
-La clause vise donc exactement ce qu'un jeu payant en ferait. L'italien a été
-retiré de Rimble et sa base dérivée de ce dépôt. Elle reviendra le jour où elle
-sera reconstruite depuis une source qui ne l'interdit pas — le Wiktionnaire
-italien, comme l'allemand.
+Le dictionnaire italien a donc été reconstruit depuis le Wiktionnaire italien,
+sous CC BY-SA, comme l'allemand. Il n'y a rien perdu au change : la
+transcription du Wiktionnaire porte l'accent *et* les syllabes.
 
 ## Ce que ces fichiers contiennent
 
